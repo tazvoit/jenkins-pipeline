@@ -21,7 +21,7 @@ public class SimpleServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.println("<html>");
 		out.println("<body>");
-		out.println("<h1>" + "POC en ejecución" + "</h1>");
+		out.println("<h1>" + "poc prueba de ejecucion" + "</h1>");
 		out.println("</body>");
 		out.println("</html>");
 	}
